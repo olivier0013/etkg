@@ -47,11 +47,12 @@
 | --skip-webdriver-menu              | Skips installation/upgrade webdrivers through the my custom wrapper (the built-in selenium-manager will be used)                     |
 | --no-headless                      | Shows the browser at runtime (the browser is hidden by default, but on (Windows 7) and (enabled --business-key or --business-account options) this option is enabled by itself) |
 | --custom-browser-location {string} | Set path to the custom browser (to the binary file, useful when using non-standard releases, for example: Firefox Developer Edition, Brave) |
-| --email-api {fakemail, emailfake} | Specify which api to use for mail, default - ```emailfake``` |
+| --email-api {fakemail, emailfake, inboxes} | Specify which api to use for mail, default - ```emailfake``` |
 | --custom-email-api | Allows you to manually specify any email, and all work will go through it - **Requires manually read inbox and do what is described in the documentation for this argument!!!**, **Also use this argument if you are unable to generate anything using all the implemented email APIs above** |
 | --no-logo              | Replaces ASCII-Art with plain text |
 | --disable-progress-bar | Disables the webdriver download progress bar |
 | --disable-output-file  | Disables the output txt file generation |
 | --output-file          | Specifies the path to the output file |
 | --repeat {number}      | Specifies how many times to repeat generation |
+| --country {string}     | Specify which page to select during registration, default - ```Ukraine```|
 | --proxy-file {string}  | Specifies the path from where the list of proxies will be read from, default - proxies.txt |
